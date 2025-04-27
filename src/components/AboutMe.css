@@ -65,7 +65,9 @@
 }
 
 .aboutme-view .cat-animation {
-    top: -110rem;
-    right: 30rem;
-    transform: scale(0.15);
+    top: 3%;         
+    left: 1.5%;        
+    width: 45rem;
+    height: auto;
+    transform: rotate(0);
 }
