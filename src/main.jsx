@@ -4,6 +4,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import App from "./App";
 import Home from './views/Home/Home';
+import ErrorPage from './views/ErrorPage/ErrorPage';
 import Buttons from "./components/Buttons/Buttons";
 import NameTag from "./components/NameTag/NameTag";
 import CatAnimation from "./components/CatAnimation/CatAnimation";
@@ -17,6 +18,7 @@ const router = createBrowserRouter([
     {
         path: "/",
         element: <App />,
+        errorElement: <ErrorPage />,
         children: [
             { index: true, element: <Home /> },
             { path: "aboutme", element: <AboutMe /> },
