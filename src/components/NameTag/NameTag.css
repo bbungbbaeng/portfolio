@@ -1,0 +1,14 @@
+.name-tag {
+    margin-top: 5rem;
+    margin-left: 6rem;
+}
+
+.name-tag h1 {
+    font-size: 9.6rem;
+    margin: 0;
+}
+
+.name-tag p {
+    font-size: 3.2rem;
+    margin: 0;
+}
